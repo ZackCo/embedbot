@@ -1,2 +1,2 @@
 # embedbot
-embed bot
+the bot embeds
