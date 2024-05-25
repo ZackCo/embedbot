@@ -26,7 +26,7 @@ async def listen_for_message(message: discord.Message):
     i_links = re.findall("http.*[\./]instagram.com/reel\S*", message.content)
     if i_links:
       for link in i_links:
-        await message.reply(link.replace('instagram.com', 'instagramez.com'), mention_author=False)
+        await message.reply(link.replace('instagram.com', 'ddinstagram.com'), mention_author=False)
     
     if len(message.embeds) == 0:
       t_links = re.findall("http.*[\./]twitter.com/\S*", message.content)
